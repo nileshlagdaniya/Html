@@ -1,0 +1,68 @@
+.form-group {
+    position: relative;
+}
+
+
+/* .bgClor {
+    background-image: linear-gradient(to top, #4d46b6, #44bfd5);
+} */
+
+.form-group input[type="password"],
+.form-group input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    cursor: pointer;
+    color: rgb(113, 112, 112);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.aaa {
+    position: relative;
+}
+
+.searchBar {
+    position: absolute;
+    margin-left: -30px;
+    top: 30%;
+    right: 10px;
+}
+
+.searchBar {
+    color: #2d1b97;
+}
+
+/* popup */
+
+#popup-container{
+    position: absolute;
+    width: 40%;
+    left: 25%;
+    top: 10%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    background-image: linear-gradient(to bottom, #0499de, #da2929);
+}
+
+#close-btn{
+    float: right;
+    cursor: pointer;
+}
+
